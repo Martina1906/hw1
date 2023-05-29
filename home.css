@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    background-color: rgb(103, 76, 76);
+    font-family: 'Times New Roman', Times, serif;
+    color: #f8f8f8;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url('marvel.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo img{
+    width: 70px;
+    height: 70px;
+
+}
+
+#links a{
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+#link a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+
+@media(max-width: 500px){
+    #links{
+        display: none;
+    }
+}
+
+#linea{
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+    background: currentColor;
+}
+
+#menu{
+    display: none;
+}
+ #menu div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+ }
+
+ @media(max-width: 500px){
+    #menu{
+        display: block;
+    }
+ }
+
+ .button{
+    background-color: grey;
+    padding: 5px 15px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+ header h1{
+    z-index: 1;
+    font-size: 3em;
+ }
+
+ @media(max-width: 500px){
+    header h1{
+        font-size: 2em;
+        padding: 0 30px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+ footer{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+footer span{
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+section{
+    display: flex;
+    background-color:rgb(103, 76, 76);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+
+
+#avengers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#avengers img{
+    height: 250px;
+    width: 250px;
+}
+
+#avengers a{
+    font-size: 25px;
+    color: black;
+}
+
+#avengers a:hover{
+    
+    background-color: red;
+
+}
+
+
+
+
+
+.film{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .film img{
+    border: 5px solid rgb(194, 187, 187);
+    border-radius: 25px;
+    width: 50%
+  }
+  
+  .film div{
+    margin: 20px;
+  }
+  
+  .film h1{
+    font-family: 'Alkatra', cursive ;
+    text-decoration: underline;
+  }
+  
+  
+
+  
+  
+  
+  .film_r img{
+    max-width: 100%;
+  }
+  
+  #ris_ricerca{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    
+  }
+
+  #ris_ricerca h1{
+    font-size: 20px;
+
+  }
+  
+  .film_r{
+    margin: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f4f4f4;
+    padding: 5px;
+    max-width: 200px;
+    text-align: center;
+  
+  }
+
+
+  #films{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center
+  }
+
+  #films h3{
+    margin-right: 15px;
+    font-size: 2em;
+    color: black;
+    text-decoration: underline;
+
+  }
+
+  #film{
+    width: 500px;
+    height: 25px;
+    border-style: none;
+    border-bottom: 2px solid #cfe3ff;
+    outline: 0;
+    text-align: center;
+
+  }
+
+
+  #submit0{
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #cfe3ff;
+    height: 25px;
+    width: 100px;
+    font-family: 'Alkatra', cursive;
+    margin-left: 5px;
+    
+  }

@@ -1,0 +1,98 @@
+body{
+    background-color: #968e8e;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #070A21;
+  }
+
+  #logo{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  }
+
+  #logo h1{
+    font-size: 50px;
+    text-decoration: underline;
+  }
+
+  #logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+section{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+    
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .name, .surname, .username, .email, .password, .confirm_password{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj {
+    border-color: #d01b2d;
+}
+
+.submit input{
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 16px 14px 18px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #000000;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color: #941414;
+}
+
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
